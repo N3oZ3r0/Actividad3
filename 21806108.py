@@ -5,7 +5,7 @@ log = True
 
 # Funcion que tiene el Ejercicio B
 def ejercicio_b():
-    arbol = binarytree.bst(height=4, is_perfect=False)
+    arbol = binarytree.bst(height=3, is_perfect=False)
     print(arbol, '\n')
 
     print('El numero de nodos es: ', arbol.size, '\n')
@@ -16,7 +16,7 @@ def ejercicio_c():
     arbol = binarytree.bst(height=5, is_perfect=False)
     print(arbol, '\n')
 
-    print('El numero de nodos es: ', arbol.height + 1, '\n')  # Sumamos 1 porque contamos la profundidad desde 1
+    print('La profundidad del arbol es: ', arbol.height + 1, '\n')  # Sumamos 1 porque contamos la profundidad desde 1
 
 
 # Funcion que tiene el Ejercicio D
@@ -26,10 +26,10 @@ def ejercicio_d():
                None, None, None, 'S', None, None, None, None, None, None, None, None, None,
                None, 'S', None, None, None, None, None, 'O', None, None, None, None, None, None, None])
 
+    # ESTE EJERCICIO NO PUDE ACABARLO PORQUE NO SABIA COMO METER CARACTERES EN UN ARBOL BINARIO
     raiz = binarytree.build(values)
 
     print(raiz)
-
 
 # Funcion principal
 def main():
